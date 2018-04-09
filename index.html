@@ -3,8 +3,35 @@
   <head>
     <meta charset="utf-8" />
     <title>Debugger Things</title>
+    <style>
+      body, html {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+
+      h1 {
+        margin: 0;
+        padding: 1em 2em;
+        background: rgba(250, 250, 250, 0.7);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        font-size: 1.5em;
+      }
+
+      canvas {
+        position: absolute;
+        left: 0; top: 0; bottom: 0; right: 0;
+        z-index: -1;
+      }
+    </style>
   </head>
   <body>
     <h1>Debugger Things</h1>
+    <canvas></canvas>
+    <script src="./buggish.js"></script>
   </body>
 </html>
